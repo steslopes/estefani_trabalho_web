@@ -1,0 +1,51 @@
+<!-- Documento do tipo HTML -->
+<!DOCTYPE html>
+<!-- Linguagem do site: Português -->
+<html lang="pt-BR">
+<!-- Cabeçalho -->
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contato</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<!-- Corpo do site -->
+<body>
+    <!-- Título -->
+    <header>
+        <h1>Contato</h1>
+        <!-- Listagem de navegação para acessar as outras páginas do site -->
+        <nav>
+            <ul>
+                <li><a href="paginaPrincipal.html">Início</a></li>
+                <li><a href="sobreMim.html">Sobre Mim</a></li>
+                <li><a href="meusEstudos.html">Meus Estudos</a></li>
+                <li><a href="meuPortifolio.html">Meu Portifólio</a></li>
+            </ul>
+        </nav>
+    </header>
+    <!-- Conteúdo visual da tela -->
+    <main>
+        <section>
+            <!-- Formulário para preencher nome, e-mail e mensagem de contato -->
+            <h2>Entre em Contato</h2>
+            <form action="#" method="post">
+                <label for="nome">Nome:</label><br>
+                <input type="text" id="nome" name="nome" required><br><br>
+
+                <label for="email">Email:</label><br>
+                <input type="email" id="email" name="email" required><br><br>
+
+                <label for="mensagem">Mensagem:</label><br>
+                <textarea id="mensagem" name="mensagem" rows="4" required></textarea><br><br>
+
+                <input type="submit" value="Enviar">
+            </form>
+        </section>
+    </main>
+    <!-- Rodapé -->
+    <footer>
+        <p>&copy; 2024 Meu Site</p>
+    </footer>
+</body>
+</html>
